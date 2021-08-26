@@ -1,0 +1,11 @@
+.vscode/
+tests/
+**/__pycache__/
+.gitignore
+poetry.lock
+pyproject.toml
+.venv/
+.env/
+env/
+venv/
+.pylintrc

@@ -1,0 +1,10 @@
+---
+version: "3"
+
+services:
+  app:
+    build: .
+    image: task-master:test
+    container_name: task-master
+    ports:
+      - 8080:8080
